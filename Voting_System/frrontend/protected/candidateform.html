@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <title>Candidate_Form</title>
+    <style>
+       .h3{
+        color: #6495ed;
+       }
+    </style>
+</head>
+<body>
+    <div class="container d-flex ">
+        <div class="row mx-auto align-items-center justify-content-center">
+            <!-- <div class="col-12 "> -->
+                <div class="h3 mt-5 text-center">Candidate Registration</div>
+                <div class="card px-5 py-5 mt-3">
+                   
+                    <form action="http:\\localhost\VotingSys\backend\" method="post" >
+
+
+
+    <div class="form-outline flex-fill mb-3">
+                        <label  for="name">Name</label>
+                        <input class="form-control" type="text" name="name" id="" required placeholder="name">
+                    </div>
+                     
+                    <div class="form-outline flex-fill">
+                        <label for="gender">Gender</label>
+                      <input type="radio" name="gender" id="" value="male" class="ms-4"> 
+                      <label for="">Male</label>
+                      <input type="radio" name="gender" id="" value="female" class="ms-4">
+                      <label for="" class="mb-3">Female</label>
+</div>
+
+                        <div class="form-outline flex-fill">
+                        <label for="cnic">CNIC</label>
+                        <input class="form-control mb-3 " type="number" required name="cnic" placeholder="CNIC">
+</div>
+<div class="form-outline flex-fill">
+                        <label for="nation">Nationality</label>
+                        <input class="form-control mb-3" type="text" required name="nation" placeholder="Nationality">
+</div>
+
+<div class="form-outline flex-fill">
+    <label for="education">Education</label>
+    <input class="form-control mb-3" type="text" required name="education" placeholder="education">
+</div>
+
+<div class="form-outline flex-fill">
+    <label for="bio">Biography</label>
+   <textarea class="form-control mb-3" name="bio" id="" cols="30" rows="10"></textarea>
+</div>
+
+<div class="form-outline flex-fill">
+    <label for="statement">Why want to participate in voting?</label>
+   <textarea class="form-control mb-3" name="statement" id="" cols="30" rows="10"></textarea>
+</div>
+
+<div class="form-outline flex-fill">
+    <label for="work">Socail Work and Work Experiance</label>
+   <textarea class="form-control mb-3" name="work" id="" cols="30" rows="10"></textarea>
+</div>
+
+<div class="form-outline flex-fill">
+    <label for="links">Social Media Profile:</label>
+    <input type="url" name="fb" id="" class="form-control mb-2" placeholder="Facebook URL">
+    <input type="url" name="twiter" id="" class="form-control  mb-2" placeholder="Twitter URL">
+    <input type="url" name="other" id="" class="form-control mb-2" placeholder="Other URL"> 
+  
+</div>
+
+<div class="form-outline flex-fill">
+                        <label for="fon">Mobile NO</label>
+                        <input class="form-control mb-3" type="tel" required name="fon" placeholder="Mobile NO">
+</div>
+      
+<div class="form-outline flex-fill">
+                <label for="pic">Profile Pic</label>
+                        <input class="form-control mb-3" type="file" name="img" placeholder="choose file" required>
+                        </div>
+
+                        <button type="submit" name="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    <!-- </div> -->
+</body>
+</html>
