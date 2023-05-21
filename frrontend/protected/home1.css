@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.my-nav{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    }
+
+     img{
+      position: relative;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        max-height: 35.5rem;
+        width: 100%;
+     }
+   .text{
+    position: absolute;
+    z-index: 10;
+    margin: 10rem;
+    }
+    li a{
+        text-decoration: none;
+        color: #6495ed;
+        font-size: 1rem;
+        font-weight: bold;
+        transition: 1s all ease;
+    }
+    li a:hover{
+        font-size: 1.2rem;
+    }
+h1{
+    color: black;
+    font-weight: bolder;
+    font-size: 3rem;
+    margin-left: 4rem;
+    margin-top: 6rem;
+    
+    transition:all .5s;
+}
+.fw-bold:hover{
+    font-size: 3.2rem;
+}
+
+.ancher{
+background-color: #6495ed;
+color: white;
+border: none;
+}
